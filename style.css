@@ -1,0 +1,35 @@
+*{
+    margin: 0;  
+    padding: 0 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px rgb(163, 163, 163);
+}
+.card h1,p{
+    padding-bottom: 20px;
+}
+div button{
+    padding: 10px 40px;
+    color: black;
+    background-color: aqua;
+}
+div button:hover{
+    background-color: white;
+    color: black;
+}
